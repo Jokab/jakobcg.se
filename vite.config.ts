@@ -1,6 +1,6 @@
 import type { UserConfig } from 'vite'
-// import Pages from 'vite-plugin-pages'
-// import Markdown from 'unplugin-vue-markdown/vite'
+import Pages from 'vite-plugin-pages'
+import Markdown from 'unplugin-vue-markdown/vite'
 // import Components from 'unplugin-vue-components/vite'
 import Vue from '@vitejs/plugin-vue'
 
@@ -9,12 +9,13 @@ const config: UserConfig = {
     Vue({
       include: [/\.vue$/, /\.md$/],
     }),
-    // Pages({
-    //   extensions: ['vue', 'md'],
-    // }),
-    // Markdown({
-    //   headEnabled: true,
-    // }),
+    Pages({
+      extensions: ['vue', 'md'],
+    }),
+    Markdown({
+      wrapperClasses: 'prose prose-sm text-left',
+      headEnabled: true,
+    }),
     // Components({
     //   extensions: ['vue', 'md'],
     //   // allow auto import and register components used in markdown
@@ -23,8 +24,12 @@ const config: UserConfig = {
   ],
   ssgOptions: {
     script: 'async',
-    formatting: 'prettify',
+    formatting: 'minify',
+    crittersOptions: {
+      reduceInlineStyles: false,
+    },
   },
+
 }
 
 export default config

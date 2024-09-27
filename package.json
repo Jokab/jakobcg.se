@@ -7,11 +7,13 @@
   },
   "devDependencies": {
     "@unhead/vue": "^1.11.6",
+    "vite-plugin-pages": "^0.32.3",
     "vite-ssg": "^0.23.8",
     "vue-router": "^4.4.5"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
+    "unplugin-vue-markdown": "^0.26.2",
     "vite": "^5.4.8",
     "vue": "^3.5.9"
   }
