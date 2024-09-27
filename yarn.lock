@@ -535,6 +535,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^22.7.3":
+  version: 22.7.3
+  resolution: "@types/node@npm:22.7.3"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/0e579813528b0370454337a952f43b792cd12731e10fdca0fdb627158e980c1219bba99e9048c134b6a19325d817016059afe016ccd372326c838a1b85a51574
+  languageName: node
+  linkType: hard
+
 "@unhead/dom@npm:1.11.6, @unhead/dom@npm:^1.9.15":
   version: 1.11.6
   resolution: "@unhead/dom@npm:1.11.6"
@@ -1538,6 +1547,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jakobcg.se@workspace:."
   dependencies:
+    "@types/node": "npm:^22.7.3"
     "@unhead/vue": "npm:^1.11.6"
     "@vitejs/plugin-vue": "npm:^5.1.4"
     unplugin-vue-markdown: "npm:^0.26.2"
@@ -2500,6 +2510,13 @@ __metadata:
   version: 1.5.4
   resolution: "ufo@npm:1.5.4"
   checksum: 10c0/b5dc4dc435c49c9ef8890f1b280a19ee4d0954d1d6f9ab66ce62ce64dd04c7be476781531f952a07c678d51638d02ad4b98e16237be29149295b0f7c09cda765
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
   languageName: node
   linkType: hard
 

@@ -3,7 +3,8 @@
   "type": "module",
   "packageManager": "yarn@4.5.0",
   "scripts": {
-    "build": "vite-ssg build"
+    "build": "vite-ssg build",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "@unhead/vue": "^1.11.6",
@@ -12,6 +13,7 @@
     "vue-router": "^4.4.5"
   },
   "dependencies": {
+    "@types/node": "^22.7.3",
     "@vitejs/plugin-vue": "^5.1.4",
     "unplugin-vue-markdown": "^0.26.2",
     "vite": "^5.4.8",
