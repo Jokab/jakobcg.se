@@ -10,7 +10,7 @@
                 <br/><br/>
                 jag är en fullstack-utvecklare som kan hela techstacken, med framför allt erfarenhet av C#/.NET, Vue/Typescript, AWS och PostgreSQL
                 <br/><br/>
-                kika in mina <RouterLink to="/experience">erfarenheter</RouterLink> eller <RouterLink to="/projects">projekt</RouterLink>
+                kika in mina <RouterLink to="/experience">erfarenheter</RouterLink> och <RouterLink to="/projects">egna projekt</RouterLink>
             </p>
             <div class="links">
                 <!-- TODO: Replace with icons-->
