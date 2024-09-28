@@ -1,12 +1,22 @@
 <script setup lang="ts">
+
 defineProps({
-    title: String
+    title: String,
 });
 </script>
 
 <template>
-    <div>
-        <h3 style="text-align: center">{{ title }}</h3>
-        <img src="@/assets/jakob.jpeg" style="width: 10rem" />
+    <div class="project">
+        <h3 style="text-align: left; margin-bottom: 1rem">{{ title }}</h3>
+        <slot></slot>
     </div>    
 </template>
+
+<style scoped>
+.project {
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--background-color-secondary);
+}
+</style>
