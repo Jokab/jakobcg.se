@@ -3,22 +3,22 @@
 </script>
 
 <template>
-    <div style="display: flex; flex-direction: column; height: 100%">
+    <!-- <div style="display: flex; flex-direction: column; height: 100%"> -->
         <div class="center">
             <p>
-                <span style="font-size: 1.125rem"><b>Hej, jag heter Jakob Csörgei Gustavsson!</b></span>
+                <span style="font-size: 1.125rem"><b>hej, jag heter jakob csörgei gustavsson!</b></span>
                 <br/><br/>
-                Jag är en fullstack-utvecklare som kan hela techstacken, med framför allt erfarenhet av C#/.NET, Vue/Typescript, AWS och PostgreSQL.
+                jag är en fullstack-utvecklare som kan hela techstacken, med framför allt erfarenhet av C#/.NET, Vue/Typescript, AWS och PostgreSQL
                 <br/><br/>
-                Kika in mina erfarenheter och projekt här -->
+                kika in mina <RouterLink to="/experience">erfarenheter</RouterLink> eller <RouterLink to="/projects">projekt</RouterLink>
             </p>
+            <div class="links">
+                <!-- TODO: Replace with icons-->
+                <a href="https://github.com/Jokab" target="_blank">github</a>
+                <a href="https://linkedin.com/in/jakobcg/" target="_blank">linkedin</a>
+            </div>
         </div>
-        <div class="links">
-            <!-- TODO: Replace with icons-->
-            <a href="https://github.com/Jokab" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/jakobcg/" target="_blank">Linkedin</a>
-        </div>
-    </div>
+    <!-- </div> -->
 </template>
 
 <style scoped>
@@ -27,13 +27,14 @@
     align-self: center;
     width: 100%;
     text-align: center;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 20rem;
 }
 .links {
     display:flex;
     gap: 1rem;
+    justify-content: center;
 }
 </style>
