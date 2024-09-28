@@ -1,4 +1,4 @@
-## Jakob Csörgei Gustavsson
+# Jakob Csörgei Gustavsson
 
 | | |
 |-|-|
@@ -6,11 +6,21 @@
 
 ## Erfarenhet
 
+- Sigmastocks
+  - CTO / Lead developer
+  - Fullstack-utvecklare
+
+- Volvo Car Retail Solutions
+  - Fullstack-utvecklare
+
 ## Projekt
 
 ### Professionellt
 
 - Sigmastocks
+
+<img style="width: 100%; opacity: 1" src="@/assets/sigmastocks-app.png"/>
+
 
 ### Hobby
 

@@ -1,6 +1,6 @@
 <template>
     <main id="app">
-      <div class="card">
+      <div class="container">
         <RouterView />
       </div>
     </main>
