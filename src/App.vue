@@ -1,5 +1,7 @@
 <template>
     <main id="app">
-      <RouterView />
+      <div class="card">
+        <RouterView />
+      </div>
     </main>
 </template>
