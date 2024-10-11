@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import CV from '@/assets/CV.pdf'
 </script>
 
 <template>
@@ -10,7 +10,7 @@
                 <br/><br/>
                 jag är en fullstack-utvecklare som kan hela techstacken, med framför allt erfarenhet av C#/.NET, Vue/Typescript, AWS och PostgreSQL
                 <br/><br/>
-                kika in mina <RouterLink to="/experience">erfarenheter</RouterLink> och <RouterLink to="/projects">egna projekt</RouterLink>
+                kika in mina <RouterLink to="/projects">egna projekt</RouterLink> eller <a :href="CV" target="_blank">CV</a>
             </p>
             <div class="links">
                 <!-- TODO: Replace with icons-->

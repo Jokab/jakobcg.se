@@ -22,7 +22,7 @@ import Project from "@/components/project.vue";
                         </div>
                     </div>
                 </Project>
-                <Project title="Manager (WIP)">
+                <Project title="Manager (under utveckling)">
                     <div style="display: flex; flex-direction: column; row-gap: 1rem">
                         <div>Fantasy-fotboll med draftsystem</div>
                         <div style="gap: 0.5rem; display:flex;">
