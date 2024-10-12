@@ -65,7 +65,7 @@ import Project from "@/components/project.vue";
     align-items: center;
 }
 .skill {
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium';
     font-weight: 400;
     padding: 0.5rem;
     border-radius: 15px;
