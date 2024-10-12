@@ -14,7 +14,7 @@ defineProps({
 
 <style scoped>
 .project {
-    width: 20rem;
+    max-width: 20rem;
     padding: 2rem;
     border-radius: 15px;
     background-color: var(--background-color-secondary);
