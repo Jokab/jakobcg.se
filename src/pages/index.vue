@@ -12,9 +12,8 @@ import CV from '@/assets/CV.pdf'
             kika in mina <RouterLink to="/projects">egna projekt</RouterLink> eller <a :href="CV" target="_blank">CV</a>
         </p>
         <div class="links">
-            <!-- TODO: Replace with icons-->
-            <a href="https://github.com/Jokab" target="_blank">github</a>
-            <a href="https://linkedin.com/in/jakobcg/" target="_blank">linkedin</a>
+            <a href="https://github.com/Jokab" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+            <a href="https://linkedin.com/in/jakobcg/" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
         </div>
     </div>
 </template>
