@@ -9,7 +9,7 @@ import CV from '@/assets/CV.pdf'
             <br/><br/>
             jag är en fullstack-utvecklare som kan hela techstacken, med framför allt erfarenhet av C#/.NET, Vue/Typescript, AWS och PostgreSQL
             <br/><br/>
-            kika in mina <RouterLink to="/projects">egna projekt</RouterLink> eller <a :href="CV" target="_blank">CV</a>
+            kika gärna in mina <RouterLink to="/projects">egna projekt</RouterLink> eller <a :href="CV" target="_blank">CV</a>
         </p>
         <div class="links">
             <a href="https://github.com/Jokab" target="_blank"><i class="fa-brands fa-github icon"></i></a>
