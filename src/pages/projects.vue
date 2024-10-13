@@ -102,5 +102,6 @@ import Project from "@/components/project.vue";
 .links {
     gap: 0.5rem; 
     display:flex;
+    min-height: 2rem;
 }
 </style>

@@ -27,14 +27,11 @@ import CV from '@/assets/CV.pdf'
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width: 768px) {
-    .center {
-    }
-}
 .links {
     margin-top: 1rem;
     display:flex;
     gap: 1rem;
     justify-content: center;
+    min-height: 2rem;
 }
 </style>
