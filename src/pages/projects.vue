@@ -10,7 +10,7 @@ import Project from "@/components/project.vue";
                 <div class="project-container">
                     <div>svensk klon av Wordle</div>
                     <div class="links">
-                        <a href="https://jokab.github.io/ordle/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        <a href="https://jokab.github.io/ordle/" target="_blank" class="link-button">Spela Ordle</a>
                         <a href="https://github.com/Jokab/ordle/" target="_blank"><i class="fa-brands fa-github icon"></i></a>
                     </div>
                     <div class="skills-container">
@@ -28,9 +28,9 @@ import Project from "@/components/project.vue";
                         <a href="https://github.com/Jokab/manager/" target="_blank"><i class="fa-brands fa-github icon"></i></a>
                     </div>
                     <div class="skills-container">
-                        <div class="skill">.NET</div>
+                        <div class="skill">.NET 8</div>
                         <div class="skill">SignalR</div>
-                        <div class="skill">Vue</div>
+                        <div class="skill">Vue 3</div>
                         <div class="skill">Typescript</div>
                         <div class="skill">PostgreSQL</div>
                     </div>
@@ -43,7 +43,7 @@ import Project from "@/components/project.vue";
                         <a href="https://github.com/Jokab/quizatrack/" target="_blank"><i class="fa-brands fa-github icon"></i></a>
                     </div>
                     <div class="skills-container">
-                        <div class="skill">Vue</div>
+                        <div class="skill">Vue 3</div>
                         <div class="skill">Typescript</div>
                         <div class="skill">Nuxt</div>
                         <div class="skill">PostgreSQL</div>
@@ -55,6 +55,22 @@ import Project from "@/components/project.vue";
 </template>
 
 <style scoped>
+
+.link-button {
+  color: #fff;
+  border: 2px solid #007BFF;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link-button:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
 .projects {
     margin-top: 2rem;
     display: flex;
@@ -69,7 +85,7 @@ import Project from "@/components/project.vue";
 .skill {
     font-family: 'Franklin Gothic Medium';
     font-weight: 400;
-    padding: 0.5rem;
+    padding: 0.75rem;
     border-radius: 15px;
     background-color: var(--accent-color);
 }
@@ -103,5 +119,6 @@ import Project from "@/components/project.vue";
     gap: 0.5rem; 
     display:flex;
     min-height: 2rem;
+    align-items: center;
 }
 </style>

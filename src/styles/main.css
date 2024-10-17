@@ -8,7 +8,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -85,11 +85,11 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
-  color: rgb(0, 102, 204);
+  color:  #007BFF;
 }
 
 a:visited { 
-  color: rgb(0, 102, 204); 
+  color:  #007BFF; 
 }
 
 i {
