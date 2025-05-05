@@ -10,7 +10,7 @@ import Project from "@/components/project.vue";
                 <div class="project-container">
                     <div>svensk klon av Wordle</div>
                     <div class="links">
-                        <a href="https://jokab.github.io/ordle/" target="_blank" class="link-button">Spela Ordle</a>
+                        <a href="https://ordle.jakobcg.se/" target="_blank" class="link-button">Spela Ordle</a>
                         <a href="https://github.com/Jokab/ordle/" target="_blank"><i class="fa-brands fa-github icon"></i></a>
                     </div>
                     <div class="skills-container">
